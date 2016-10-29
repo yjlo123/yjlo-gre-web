@@ -1,0 +1,22 @@
+.word{
+	font-size: 40px;
+}
+
+.background{
+	max-width: 100%;
+}
+
+.big_wrapper{
+	max-width: 100%;
+}
+
+.top_bar{
+	max-width: 100%;
+}
+
+.next_btn{
+	max-width: 100%;
+	height: 80px;
+	padding-top: 30px;
+	font-size: 20px;
+}

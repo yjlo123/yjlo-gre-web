@@ -1,0 +1,136 @@
+
+body{
+	margin:0px;
+	background-color: rgb(70,70,70);
+	font-family: 'Varela Round', sans-serif;
+}
+
+.background{
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	max-width: 600px;
+	background-color: white;
+}
+
+.big_wrapper{
+	top:0px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+
+}
+.top_bar{
+	position: fixed;
+	top: 0px;
+	height: 40px;
+	width:100%;
+	max-width: 600px;
+	background-color: #222222;
+}
+.container{
+	padding: 3px 5px;
+	margin-top: 40px;
+	min-height: 100%;
+	background-color: white;
+	padding-bottom: 40px;
+}
+
+.word{
+	text-align: center;
+	font-size: 30px;
+	margin: 5px auto;
+}
+
+.pronunciation{
+	text-align: center;
+	font-size: 18px;
+	margin: 0 auto;
+}
+.pos{
+	display: block;
+	float:left;
+	width: 40px;
+	text-align: center;
+	margin-right: 4px;
+	/*background-color: #aaa;*/
+	/*color: black;*/
+	font-weight: bold;
+}
+.meaning{
+	margin: 6px 2px;
+}
+.next_btn{
+	position: fixed;
+	bottom: 0px;
+	width:100%;
+	max-width: 600px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: rgb(180,180,180);
+	color: black;
+	font-size: 20px;
+	cursor:pointer;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.tool{
+	float: right;
+	height: 34px;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.tool:focus {
+  outline: none;
+}
+
+.tool_img{
+	height : 95%;
+}
+
+@media (hover: hover) {
+	.next_btn:hover{
+		background-color: gray;
+	}
+
+	.tool:hover{
+		background-color: #2d7b97;
+	}
+}
+
+.night_mode{
+    background-color: #181818;
+    color: #808080;
+}
+
+.google_play{
+	float: right;
+	height: 32px;
+	margin: 4px 20px;
+	cursor: pointer;
+}
+
+.count{
+	float:left;
+	height: 34px;
+	padding: 3px;
+	color: rgba(255,255,255,0.9);
+	margin-top:20px;
+	font-size:12px;
+	margin-left: -5px;
+}
+
+.ios{
+	display: none;
+}
