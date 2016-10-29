@@ -1,11 +1,11 @@
 <?php
-
 $conn_error = 'Could not connect!';
 
-$mysql_host = 'localhost';
-$mysql_user = 'yjlo123';
-$mysql_pass = 'yjlo+19920829';
-$mysql_db = 'yjlogre';
+$config = parse_ini_file("config.ini");
+$mysql_host = $config['dbhost'];
+$mysql_user = $config['dbuser'];
+$mysql_pass = $config['dbpass'];
+$mysql_db = $config['dbname'];
 
 
 $conn = new mysqli($mysql_host, $mysql_user, $mysql_pass, $mysql_db);
